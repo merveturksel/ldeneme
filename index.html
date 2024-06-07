@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2024 Emirhan Araba Tamirhanesi</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background-color: #343a40;
+        }
+        .navbar-brand, .navbar-nav .nav-link {
+            color: #fff !important;
+        }
+        .header {
+            position: relative;
+            text-align: center;
+            color: white;
+        }
+        .header img {
+            width: 100%;
+            height: 50vh;
+            object-fit: cover;
+        }
+        .header .overlay {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.5);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3rem;
+        }
+        .section-title {
+            margin: 2rem 0;
+            font-size: 2.5rem;
+            color: #333;
+            text-align: center;
+            font-weight: bold;
+        }
+        .section-content {
+            padding: 2rem 0;
+        }
+        .service-item, .whyus-item, .reference-item {
+            margin-bottom: 1.5rem;
+        }
+        .service-item img, .whyus-item img, .reference-item img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+            border-radius: 0.5rem;
+        }
+        .service-item h5, .whyus-item h5, .reference-item h5 {
+            margin-top: 0.5rem;
+            font-size: 1.2rem;
+            font-weight: bold;
+        }
+        .reference-item p {
+            font-style: italic;
+            color: #555;
+        }
+        footer {
+            background-color: #343a40;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Emirhan Araba Tamirhanesi</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navMenu" aria-controls="navMenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Anasayfa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index2.html">Hizmetler</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index4.html">İletişim</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- Header -->
+    <div class="header">
+        <img src="image/4.jpeg" alt="Araba Tamirhanesi">
+        <div class="overlay">Hoş Geldiniz!</div>
+    </div>
+    
+    <!-- Hizmetler Section -->
+    <div class="container section-content">
+        <h2 class="section-title">Hizmetlerimiz</h2>
+        <div class="row">
+            <div class="col-md-3 service-item">
+                <img src="image/1.jpeg" alt="Yağ Değişimi">
+                <h5>Yağ Değişimi</h5>
+                <p>Aracınızın performansını artırmak ve motorun ömrünü uzatmak için kaliteli yağ değişim hizmetimizden yararlanın.</p>
+                <a href="index2.html" class="btn btn-primary">Detaylar</a>
+            </div>
+            <div class="col-md-3 service-item">
+                <img src="image/2.jpeg" alt="Fren Tamiri">
+                <h5>Fren Tamiri</h5>
+                <p>Güvenli sürüş için fren sisteminizin bakım ve tamirini uzman ekibimize bırakın.</p>
+                <a href="index2.html" class="btn btn-primary">Detaylar</a>
+            </div>
+            <div class="col-md-3 service-item">
+                <img src="image/3.jpeg" alt="Motor Bakımı">
+                <h5>Motor Bakımı</h5>
+                <p>Aracınızın motorunun sorunsuz çalışması için düzenli bakım ve kontroller.</p>
+                <a href="index2.html" class="btn btn-primary">Detaylar</a>
+            </div>
+            <div class="col-md-3 service-item">
+                <img src="image/7.jpeg" alt="Lastik Değişimi">
+                <h5>Lastik Değişimi</h5>
+                <p>Mevsime uygun lastik değişim hizmetimizle güvenliğinizi artırın.</p>
+                <a href="index2.html" class="btn btn-primary">Detaylar</a>
+            </div>
+        </div>
+    </div>
+    <!-- Sık Sorulan Sorular -->
+    <div class="container" data-aos="fade-up">
+        <header class="section-header text-center">
+            <h3 style="color: #b60b0b;">Tamirhane Hakkında Merak Edilenler</h3>
+        </header>
+        <div class="accordion" id="faqAccordion">
+            <div class="card">
+                <div class="card-header" id="faq1">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapse1" aria-expanded="true" aria-controls="collapse1">
+                            Aracımın bakım süresi ne kadar sürer?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse1" class="collapse show" aria-labelledby="faq1" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Aracınızın bakım süresi, yapılacak işlemlere bağlı olarak değişir. Genellikle basit bakımlar birkaç saat içinde tamamlanabilirken, daha kapsamlı onarımlar daha fazla zaman alabilir.
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-header" id="faq2">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse2" aria-expanded="false" aria-controls="collapse2">
+                            Hangi tür araçlara hizmet veriyorsunuz?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse2" class="collapse" aria-labelledby="faq2" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Her türlü marka ve modeldeki araçlara hizmet vermekteyiz. Binek araçlardan ticari araçlara kadar geniş bir yelpazede tamir ve bakım hizmetleri sunuyoruz.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="faq3">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse3" aria-expanded="false" aria-controls="collapse3">
+                            Yedek parça garantisi veriyor musunuz?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse3" class="collapse" aria-labelledby="faq3" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Evet, kullandığımız yedek parçalar orijinal ve garantilidir. Her türlü parça değişiminde müşteri memnuniyetini garanti ediyoruz.
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-header" id="faq4">
+                    <h5 class="mb-0">
+                        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapse4" aria-expanded="false" aria-controls="collapse4">
+                            Acil durumlarda destek sağlıyor musunuz?
+                        </button>
+                    </h5>
+                </div>
+                <div id="collapse4" class="collapse" aria-labelledby="faq4" data-parent="#faqAccordion">
+                    <div class="card-body">
+                        Evet, acil durumlar için 7/24 destek hizmetimiz bulunmaktadır. Bize her zaman ulaşabilirsiniz.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+          
+    <br>
+    
+    <!-- Neden Biz Section -->
+    <div class="container section-content bg-light">
+        <h2 class="section-title">Neden Biz?</h2>
+        <div class="row">
+            <div class="col-md-4 whyus-item">
+                <img src="image/6.jpeg" alt="Profesyonel Ekip">
+                <h5>Profesyonel Ekip</h5>
+                <p>Deneyimli ve sertifikalı teknisyenlerimizle aracınızı en iyi şek
+                  ChatGPT
+                  ilde tamir ediyoruz.</p>
+                  <a href="index2.html" class="btn btn-primary">Detaylar</a>
+                  </div>
+                  <div class="col-md-4 whyus-item">
+                  <img src="image/5.jpeg" alt="Uygun Fiyatlar">
+                  <h5>Uygun Fiyatlar</h5>
+                  <p>Kaliteli hizmeti uygun fiyatlarla sunarak bütçenizi koruyoruz.</p>
+                  <a href="index2.html" class="btn btn-primary">Detaylar</a>
+                  </div>
+                  <div class="col-md-4 whyus-item">
+                  <img src="image/4.jpeg" alt="Müşteri Memnuniyeti">
+                  <h5>Müşteri Memnuniyeti</h5>
+                  <p>Müşteri odaklı hizmet anlayışımızla memnuniyetinizi garanti ediyoruz.</p>
+                  <a href="index2.html" class="btn btn-primary">Detaylar</a>
+                  </div>
+                  </div>
+                  </div>
+                  <!-- Referanslar Section -->
+<div class="container section-content">
+  <h2 class="section-title">Referanslar</h2>
+  <div class="row">
+      <div class="col-md-4 reference-item">
+          <img src="image/1.jpeg" alt="Referans 1">
+          <h5>Referans 1</h5>
+          <p>"Harika hizmet! Aracımın tüm sorunlarını hızlıca çözdüler."</p>
+          <a href="index2.html" class="btn btn-primary">Detaylar</a>
+      </div>
+      <div class="col-md-4 reference-item">
+          <img src="image/2.jpeg" alt="Referans 2">
+          <h5>Referans 2</h5>
+          <p>"Güler yüzlü ve profesyonel ekip. Kesinlikle tavsiye ederim."</p>
+          <a href="index2.html" class="btn btn-primary">Detaylar</a>
+      </div>
+      <div class="col-md-4 reference-item">
+          <img src="image/3.jpeg" alt="Referans 3">
+          <h5>Referans 3</h5>
+          <p>"Fiyatlar çok uygun ve hizmet kalitesi çok yüksek."</p>
+          <a href="index2.html" class="btn btn-primary">Detaylar</a>
+      </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2024 Emirhan Araba Tamirhanesi</p>
+</footer>
+
+<!-- Bootstrap JS, jQuery, Popper.js -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
